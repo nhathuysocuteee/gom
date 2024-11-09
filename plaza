@@ -1,32 +1,32 @@
 script_key="CjhWeBMOJbODWKXGLaxlkmFVCodDSbDc";
 
 getgenv().petsGoConfig = {
-    DISCORD_ID = "",
+    DISCORD_ID = "1276614706144215132",
     PLAZA_WEBHOOK_URL = "https://discord.com/api/webhooks/1303213815437066291/xndqo115HTBuOYWnXNPEWJWV7UoreVj307sP80ljEz7um7uFiGnd3jIgOopnxBempBgE",
 
-    -- Plaza hop delay will reset if someone purchase something.
-    PLAZA_HOP_DELAY = 10,  -- (minutes) If no one purchase, server hop
-    SELL_PERCENTAGE_10M = 0.85,  -- 1 = 100% RAP, 0.8 = 80% RAP (Example: 100k RAP config 0.9 = Sell For 90k Gems)
-    SELL_PERCENTAGE_50M = 0.88,  -- 1 = 100% RAP, 0.8 = 80% RAP
-    SELL_PERCENTAGE_100M = 0.92,  -- 1 = 100% RAP, 0.8 = 80% RAP
+   
+    PLAZA_HOP_DELAY = 10, 
+    SELL_PERCENTAGE_10M = 0.85,  
+    SELL_PERCENTAGE_50M = 0.88, 
+    SELL_PERCENTAGE_100M = 0.92, 
 
-    SELL_HUGE_SECRET = true,  -- true/false, enable selling secret and huges
-    SELL_PERCENTAGE_HUGE_SECRET = 0.95,  -- 1 = 100% RAP, 0.8 = 80% RAP
+    SELL_HUGE_SECRET = true,  
+    SELL_PERCENTAGE_HUGE_SECRET = 0.95, 
 
-    SELL_POTION = true,  -- true/false (only sell insta luck 4)
-    SELL_POTION_PERCENTAGE = 0.9,  -- 1 = 100% RAP, 0.8 = 80% RAP
+    SELL_POTION = true, 
+    SELL_POTION_PERCENTAGE = 0.9,  
 
-    SELL_KEY = true,  -- true/false, enable selling crystal/secret keys
-    SELL_KEY_PERCENTAGE = 0.9,  -- 1 = 100% RAP, 0.8 = 80% RAP
+    SELL_KEY = true,  
+    SELL_KEY_PERCENTAGE = 0.9,
 
-    SELL_BAIT = true,  -- true/false, enable selling exclusive fishing bait
-    SELL_BAIT_PERCENTAGE = 0.9,  -- 1 = 100% RAP, 0.8 = 80% RAP
+    SELL_BAIT = true,
+    SELL_BAIT_PERCENTAGE = 0.9,
 
-    SELL_CHEST = true,  -- true/false, enable selling exclusive treasure chest
-    SELL_CHEST_PERCENTAGE = 0.9,  -- 1 = 100% RAP, 0.8 = 80% RAP
+    SELL_CHEST = true,  
+    SELL_CHEST_PERCENTAGE = 0.9, 
 
-    MAIL_GEMS_USERNAME = "HBT_MNz7avpCxP",  -- Empty = Disabled Gem Mail
-    MAIL_GEMS_MIN = 10000000,  -- Minimum gems required to send
+    MAIL_GEMS_USERNAME = "HBT_MNz7avpCxP", 
+    MAIL_GEMS_MIN = 10000000,  
 }
 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/edafbc84006c0897b76b0d07cef3fe41.lua"))()
