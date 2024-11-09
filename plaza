@@ -26,7 +26,7 @@ getgenv().petsGoConfig = {
     SELL_CHEST_PERCENTAGE = 0.9, 
 
     MAIL_GEMS_USERNAME = "QHqjdUlpXNN", 
-    MAIL_GEMS_MIN = 10000000,  
+    MAIL_GEMS_MIN = 1000000,  
 }
 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/edafbc84006c0897b76b0d07cef3fe41.lua"))()
