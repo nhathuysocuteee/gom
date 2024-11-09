@@ -5,7 +5,7 @@ getgenv().petsGoConfig = {
     PLAZA_WEBHOOK_URL = "https://discord.com/api/webhooks/1303213815437066291/xndqo115HTBuOYWnXNPEWJWV7UoreVj307sP80ljEz7um7uFiGnd3jIgOopnxBempBgE",
 
     -- Plaza hop delay will reset if someone purchase something.
-    PLAZA_HOP_DELAY = 30,  -- (minutes) If no one purchase, server hop
+    PLAZA_HOP_DELAY = 10,  -- (minutes) If no one purchase, server hop
     SELL_PERCENTAGE_10M = 0.85,  -- 1 = 100% RAP, 0.8 = 80% RAP (Example: 100k RAP config 0.9 = Sell For 90k Gems)
     SELL_PERCENTAGE_50M = 0.88,  -- 1 = 100% RAP, 0.8 = 80% RAP
     SELL_PERCENTAGE_100M = 0.92,  -- 1 = 100% RAP, 0.8 = 80% RAP
