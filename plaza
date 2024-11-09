@@ -25,7 +25,7 @@ getgenv().petsGoConfig = {
     SELL_CHEST = true,  
     SELL_CHEST_PERCENTAGE = 0.9, 
 
-    MAIL_GEMS_USERNAME = "HBT_MNz7avpCxP", 
+    MAIL_GEMS_USERNAME = "QHqjdUlpXNN", 
     MAIL_GEMS_MIN = 10000000,  
 }
 
