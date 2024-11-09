@@ -5,7 +5,7 @@ getgenv().petsGoConfig = {
     PLAZA_WEBHOOK_URL = "https://discord.com/api/webhooks/1303213815437066291/xndqo115HTBuOYWnXNPEWJWV7UoreVj307sP80ljEz7um7uFiGnd3jIgOopnxBempBgE",
 
    
-    PLAZA_HOP_DELAY = 10, 
+    PLAZA_HOP_DELAY = 30, 
     SELL_PERCENTAGE_10M = 0.85,  
     SELL_PERCENTAGE_50M = 0.88, 
     SELL_PERCENTAGE_100M = 0.92, 
