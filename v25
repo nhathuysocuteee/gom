@@ -1,4 +1,4 @@
-script_key="DZrGgiFFYsreIAgTNEGzJiyvkjogKRKj";
+script_key="rRNZdyXotGhvIKRUnnpMfTjkCApbmhzG";
 
 getgenv().petsGoConfig = {
     EVENT_EGG = false,
