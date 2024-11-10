@@ -1,16 +1,7 @@
-script_key="CjhWeBMOJbODWKXGLaxlkmFVCodDSbDc";
-
-getgenv().petsGoConfig = {
-    HIDE_NAME = true,  
-    WEBHOOK_URL = "https://discord.com/api/webhooks/1303536905568387092/Z_w3e6f2EsGu_V-W3TBJRnD0L9QNl-cT6ijXxB5ESvUUAfH2AJNpcdv5Ai7t0e6lM13q",
-    MAILING_WEBHOOK_URL = "https://discord.com/api/webhooks/1303537975132684288/sptOT0VM9NfANoMIdt2D3Pm770aBVuJxf1UiO2Q-5c35_gfsJzbH_udfSSLBlQyY3fO_",
-    DISCORD_ID = "1276614706144215132",
-    WEBHOOK_ODDS = 1000000000, 
-      
-    MAIL_PET = true,  -- Mail Pet
-    MAIL_WEBHOOK_ODDS = 100000000, -- Minimum Pet Odds To Trigger MAIL Webhook
-    MAIL_PET_ODDS = 100000000,  -- Minimum Pet Odds To Mail
-    USERNAME_TO_MAIL = "HBT_0S39W4G" -- Mail Pet To Username
+getgenv().Config = {
+    ["Webhook"] = "https://discord.com/api/webhooks/1301722573054148690/s9bV1i_DGoxKyCZBfxmML7dZisPayLYpO4gBSAaGhfzSYIpENkPpDr2SjmtQTuED1_cc",
+    ["UserID"] = "1276614706144215132",
+    ["AutoMailUsers"] = {"HBT_0S39W4G"},
+    ["APIKEY"] = "CjhWeBMOJbODWKXGLaxlkmFVCodDSbDc"
 }
-
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5653ca0a4685e7d4268329988eefdb21.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/35790ccd448161fc0c14cb2094cfbc4b.lua"))()
