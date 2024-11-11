@@ -1,7 +1,7 @@
 script_key="CjhWeBMOJbODWKXGLaxlkmFVCodDSbDc";
 
 getgenv().petsGoConfig = {
-    DISCORD_ID = "1276614706144215132",
+    DISCORD_ID = "",
     PLAZA_WEBHOOK_URL = "https://discord.com/api/webhooks/1303213815437066291/xndqo115HTBuOYWnXNPEWJWV7UoreVj307sP80ljEz7um7uFiGnd3jIgOopnxBempBgE",
 
    
