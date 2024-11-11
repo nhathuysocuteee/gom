@@ -1,4 +1,4 @@
-script_key="CjhWeBMOJbODWKXGLaxlkmFVCodDSbDc ";
+script_key="CjhWeBMOJbODWKXGLaxlkmFVCodDSbDc";
 
 getgenv().petsGoConfig = {
     DISCORD_ID = "",
