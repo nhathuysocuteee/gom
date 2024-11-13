@@ -20,16 +20,16 @@ getgenv().petsGoConfig = {
     SELL_PERCENTAGE_HUGE_SECRET = 0.95,  -- 1 = 100% RAP, 0.8 = 80% RAP
 
     SELL_POTION = true,  -- true/false (only sell insta luck 4)
-    SELL_POTION_PERCENTAGE = 0.95,  -- 1 = 100% RAP, 0.8 = 80% RAP
+    SELL_POTION_PERCENTAGE = 0.85,  -- 1 = 100% RAP, 0.8 = 80% RAP
 
-    SELL_KEY = false,  -- true/false, enable selling crystal/secret keys
-    SELL_KEY_PERCENTAGE = 1.5,  -- 1 = 100% RAP, 0.8 = 80% RAP
+    SELL_KEY = true,  -- true/false, enable selling crystal/secret keys
+    SELL_KEY_PERCENTAGE = 0.85,  -- 1 = 100% RAP, 0.8 = 80% RAP
 
     SELL_BAIT = true,  -- true/false, enable selling exclusive fishing bait
-    SELL_BAIT_PERCENTAGE = 0.95,  -- 1 = 100% RAP, 0.8 = 80% RAP
+    SELL_BAIT_PERCENTAGE = 0.85,  -- 1 = 100% RAP, 0.8 = 80% RAP
 
     SELL_CHEST = true,  -- true/false, enable selling exclusive treasure chest
-    SELL_CHEST_PERCENTAGE = 0.95,  -- 1 = 100% RAP, 0.8 = 80% RAP
+    SELL_CHEST_PERCENTAGE = 0.85,  -- 1 = 100% RAP, 0.8 = 80% RAP
 
     MAIL_GEMS_USERNAME = "QHqjdUlpXNN",  -- Empty = Disabled Gem Mail
     MAIL_GEMS_MIN = 10000000,  -- Minimum gems required to send
