@@ -1,0 +1,16 @@
+script_key="CjhWeBMOJbODWKXGLaxlkmFVCodDSbDc";
+
+getgenv().petsGoConfig = {
+    HIDE_NAME = true,  -- hide webhook username
+    WEBHOOK_URL = "https://discord.com/api/webhooks/1303536905568387092/Z_w3e6f2EsGu_V-W3TBJRnD0L9QNl-cT6ijXxB5ESvUUAfH2AJNpcdv5Ai7t0e6lM13q",
+    MAILING_WEBHOOK_URL = "",
+    DISCORD_ID = "1276614706144215132",
+    WEBHOOK_ODDS = 1000000000, -- Minimum Pet Odds To Trigger Webhook
+    
+    MAIL_PET = true,  -- Mail Pet
+    MAIL_WEBHOOK_ODDS = 100000000, -- Minimum Pet Odds To Trigger MAIL Webhook
+    MAIL_PET_ODDS = 100000000,  -- Minimum Pet Odds To Mail
+    USERNAME_TO_MAIL = "ooiBHIdJilA" -- Mail Pet To Username
+}
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5653ca0a4685e7d4268329988eefdb21.lua"))()
