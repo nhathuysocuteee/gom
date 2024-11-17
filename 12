@@ -1,4 +1,4 @@
-script_key="OBjt5FuV80ZUQkaXHJxFLYGTcZqhyD5l";
+script_key="CjhWeBMOJbODWKXGLaxlkmFVCodDSbDc";
 
 getgenv().petsGoConfig = {
     HIDE_NAME = true,  -- hide webhook username
