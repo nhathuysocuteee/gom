@@ -4,4 +4,3 @@ getgenv().Config = {
     ["AutoMailUsers"] = {"HBT_0S39W4G"},
     ["APIKEY"] = "OBjt5FuV80ZUQkaXHJxFLYGTcZqhyD5l"
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/c417110ed2debce484a738c684612385.lua"))()
