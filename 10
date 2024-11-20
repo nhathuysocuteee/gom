@@ -1,8 +1,8 @@
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5653ca0a4685e7d4268329988eefdb21.lua"))()
 getgenv().Config = {
     ["Webhook"] = "https://discord.com/api/webhooks/1301722573054148690/s9bV1i_DGoxKyCZBfxmML7dZisPayLYpO4gBSAaGhfzSYIpENkPpDr2SjmtQTuED1_cc",
-    ["UserID"] = "1276614706144215132",
+    ["UserID"] = "",
     ["AutoMailUsers"] = {"HBT_n5ezrff"},
-    ["APIKEY"] = "CjhWeBMOJbODWKXGLaxlkmFVCodDSbDc"
+    ["APIKEY"] = ""
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/c417110ed2debce484a738c684612385.lua"))()
