@@ -17,10 +17,10 @@ getgenv().petsGoConfig = {
     SELL_PERCENTAGE_100M = 0.95, 
 
     SELL_HUGE_SECRET = true,  
-    SELL_PERCENTAGE_HUGE_SECRET = 1, 
+    SELL_PERCENTAGE_HUGE_SECRET = 0.98, 
 
     SELL_POTION = true,  
-    SELL_POTION_PERCENTAGE = 1,
+    SELL_POTION_PERCENTAGE = 0.98,
 
     SELL_KEY = true,  
     SELL_KEY_PERCENTAGE = 1, 
