@@ -22,7 +22,7 @@ getgenv().petsGoConfig = {
     SELL_POTION = true,  
     SELL_POTION_PERCENTAGE = 0.9,
 
-    SELL_KEY = true,  
+    SELL_KEY = false,  
     SELL_KEY_PERCENTAGE = 1, 
 
     SELL_BAIT = false, 
