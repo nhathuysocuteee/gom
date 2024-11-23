@@ -25,10 +25,10 @@ getgenv().petsGoConfig = {
     SELL_KEY = true,  
     SELL_KEY_PERCENTAGE = 1, 
 
-    SELL_BAIT = true, 
+    SELL_BAIT = false, 
     SELL_BAIT_PERCENTAGE = 1, 
 
-    SELL_CHEST = true,  
+    SELL_CHEST = false,  
     SELL_CHEST_PERCENTAGE = 1, 
 
     MAIL_GEMS_USERNAME = "QHqjdUlpXNN", 
