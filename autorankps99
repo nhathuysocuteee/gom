@@ -14,7 +14,7 @@ getgenv().Config = {
     ["AutoBalloon"] = true,
 
     ["FPSBooster"] = true,
-    ["UltraFPS"] = true,
-    ["Webhook"] = "https://discord.com/api/webhooks/1225996591739961395/t3PKcH60oxxrbPqz2mRAgExXS6p2DrcR0kYaeFNzu89-_OQ3WgH2u7RNn0c0RcMgzWvX",
+    ["UltraFPS"] = false,
+    ["Webhook"] = "https://discord.com/api/webhooks/1310435631067037798/8yvYMPFx5G2289y_cferkoiEilG7Yn8ZrB9MXcbEQl5A4JuGsYEs4DumwbhxaAf_BDDI",
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/177d65e916988f4b84dd21ed33a2aa91.lua"))()
