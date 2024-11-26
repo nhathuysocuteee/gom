@@ -1,8 +1,8 @@
 
 getgenv().ps99Config = {
     -- General Config
-    WEBHOOK_URL = "",
-    DISCORD_ID = "",
+    WEBHOOK_URL = "https://discord.com/api/webhooks/1309186012802715759/w2SfjOv5zczmRotMqC9pkOvXVonV3TktlQGejC0Rv2YylZmV9cAifHeqqxCG-TkCWPy5",
+    DISCORD_ID = "1276614706144215132",
 
     -- Mail Config
     USERNAME_TO_MAIL = "",
