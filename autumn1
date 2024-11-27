@@ -1,8 +1,5 @@
 wait()
 game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("World1Teleport"):InvokeServer()
-
-wait()
-game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("World1Teleport"):InvokeServer()
 wait()
 getgenv().Config = {
     ["AutoMailUser"] = ""
