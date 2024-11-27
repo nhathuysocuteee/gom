@@ -1,10 +1,12 @@
+wait()
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("World1Teleport"):InvokeServer()
 
 wait()
-script_key = "ViYStPeDqVzERZNzAywgXibOoWbrRatq";
-_G.GDO_AUTUMN_EVENT = true
-_G.GGFX_MODE = 1
-_G.GZONE_TO = 99 -- to enter event from W3 intead put 999
-_G.GWEBHOOK_USERID = "1276614706144215132"
-_G.GWEBHOOK_LINK = "https://discord.com/api/webhooks/1309186012802715759/w2SfjOv5zczmRotMqC9pkOvXVonV3TktlQGejC0Rv2YylZmV9cAifHeqqxCG-TkCWPy5"
-_G.GMAIL_RECEIVERS = {"b9zr93kaA"}
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/34915da4ad87a5028e1fd64efbe3543f.lua"))()
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("World1Teleport"):InvokeServer()
+wait()
+getgenv().Config = {
+    ["AutoMailUser"] = ""
+    ["UserID"] = "",
+    ["Webhook"] = ""
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/ea0ab6ccca282c76c23a12244973ad4e.lua"))()
