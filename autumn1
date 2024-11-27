@@ -1,5 +1,5 @@
 getgenv().Config = {
-    ["AutoMailUser"] = "b9zr93kaA"
+    ["AutoMailUser"] = "b9zr93kaA",
     ["UserID"] = "1276614706144215132",
     ["Webhook"] = "https://discord.com/api/webhooks/1309186012802715759/w2SfjOv5zczmRotMqC9pkOvXVonV3TktlQGejC0Rv2YylZmV9cAifHeqqxCG-TkCWPy5"
 }
