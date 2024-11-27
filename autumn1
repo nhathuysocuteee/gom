@@ -2,7 +2,8 @@ wait()
 game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("World1Teleport"):InvokeServer()
 wait()
 getgenv().Config = {
-    ["AutoMailUser"] = ""
+    ["AutoMailUser"] = "",
     ["UserID"] = "",
-    ["Webhook"] = "" 
+    ["Webhook"] = ""
+}
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/ea0ab6ccca282c76c23a12244973ad4e.lua"))()
