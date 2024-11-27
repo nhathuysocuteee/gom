@@ -1,10 +1,5 @@
-if game.PlaceId ~= 8737899170 then
-    repeat
-        game.ReplicatedStorage.Network.World1Teleport:InvokeServer()
-        task.wait(10)
-    until game.PlaceId == 8737899170
-end
 wait()
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("World1Teleport"):InvokeServer()
 getgenv().Config = {
     ["AutoMailUser"] = ""
     ["UserID"] = "",
