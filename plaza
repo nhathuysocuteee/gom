@@ -13,7 +13,7 @@ getgenv().petsGoConfig = {
     SELL_50M_PET = false, 
     SELL_PERCENTAGE_50M = 0.8,  
 
-    SELL_100M_PET = false, 
+    SELL_100M_PET = true, 
     SELL_PERCENTAGE_100M = 0.7, 
 
     SELL_HUGE_SECRET = false,  
@@ -25,10 +25,10 @@ getgenv().petsGoConfig = {
     SELL_KEY = true,  
     SELL_KEY_PERCENTAGE = 0.8, 
 
-    SELL_BAIT = false, 
+    SELL_BAIT = true, 
     SELL_BAIT_PERCENTAGE = 1, 
 
-    SELL_CHEST = false,  
+    SELL_CHEST = true,  
     SELL_CHEST_PERCENTAGE = 1, 
 
     MAIL_GEMS_USERNAME = "QHqjdUlpXNN", 
