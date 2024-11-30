@@ -1,51 +1,9 @@
 script_key = "buWqvxwEGollesYNnJGakKbDDsyMUFkC"
 getgenv().Settings = {
-    Sniper = {
+      Seller = {
         Active = true,
         Items = {
-            --// Example Settings showcasing features.
-            SearchTerminal = {
-                [[ Terminal doesn't support custom keywords like "All Huges". ]],
-
-                ["Mini Chest"] = {Class = "Misc", Price = "2%"},
-                ["Coins 5"] = {Class = "Potion", Price = 1},
-                ["Shiny Apple"] = {Class = "Fruit", Price = "+5%"},
-            },
-
-            
-            
-            ["Huge Scarecrow Dog"] = {Class = "Pet", Price = "-8%"},
-        },
-        Serverhop = {
-            ["Switch Servers"] = true,
-            ["Teleport Delay (s)"] = 3,
-            ["Add Pro Plaza Lobbies"] = true,
-            ["Constant Terminal Searching"] = true,
-            ["Terminal Searches per Item"] = 3,
-            ["Save # Servers"] = 10,
-        },
-        Webhook = {
-            ["URL"] = "https://discord.com/api/webhooks/1312361700779098234/h7jo8Nn8pLVQIzs6KICM0J6RxP8LmXn6EGdlIb_9CGXD-LwDQE9jLpmN2mKaVNmEdJ5d",
-            ["Send Embeds"] = true,
-            ["Remove Username"] = true,
-            ["Ping on Huges 'n Titanics"] = true,
-            ["Global Snipes"] = true,
-        },
-        StopParams = {
-            ["Limits Reached"] = false,
-            ["Diamonds Hit: 250k"] = true,
-            ["60 Minutes"] = false,
-            ["Switch To Selling"] = true,
-        },
-    },
-
-    Seller = {
-        Active = false,
-        Items = {
-            ["Huge Abyssal Jellyfish"] = {Class = "Pet", Price = 50000000},
-            ["Large Potion Bundle"] = {Class = "Misc", Price = "10%"},
             ["All Huges"] = {Class = "Pet", Price = "-5%"},
-            ["All Items"] = {Class = "Lootbox", Price = -5000},
         },
         Serverhop = {
             ["Switch Servers"] = true,
@@ -53,7 +11,7 @@ getgenv().Settings = {
             ["Add Pro Plaza Lobbies"] = true,
         },
         Webhook = {
-            ["URL"] = "",
+            ["URL"] = "https://discord.com/api/webhooks/1312361700779098234/h7jo8Nn8pLVQIzs6KICM0J6RxP8LmXn6EGdlIb_9CGXD-LwDQE9jLpmN2mKaVNmEdJ5d",
             ["Send Embeds"] = true,
             ["Remove Username"] = true,
         },
