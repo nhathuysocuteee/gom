@@ -24,6 +24,8 @@ getgenv().petsGoConfig = {
 
     SELL_KEY = true,  
     SELL_KEY_PERCENTAGE = 0.9, 
+    SELL_KEY_LOWER = false,  -- true/false, enable selling lower crystal key
+    SELL_KEY_UPPER = false,  -- true/false, enable selling upper crystal key
 
     SELL_BAIT = true, 
     SELL_BAIT_PERCENTAGE = 1, 
