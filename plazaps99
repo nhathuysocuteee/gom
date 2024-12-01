@@ -10,6 +10,10 @@ getgenv().Settings = {
             ["Shiny Rainbow All Huges"] = {Class = "Pet", Price = "-5%"},     
             ["Shiny Golden All Huges"] = {Class = "Pet", Price = "-5%"},     
             ["All Titanics"] = {Class = "Pet", Price = "17000000000"},
+            ["Autumn Teddy Bear"] = {Class = "Pet", Price = "700000"},
+            ["Autumn Chest Mimic"] = {Class = "Pet", Price = "6500000"},
+
+
         },
         Serverhop = {
             ["Switch Servers"] = true,
