@@ -2,19 +2,7 @@ script_key = "buWqvxwEGollesYNnJGakKbDDsyMUFkC"
 getgenv().Settings = {
     Sniper = {
         Active = true,
-        Items = {
-            --// Example Settings showcasing features.
-            SearchTerminal = {
-                [[ Terminal doesn't support custom keywords like "All Huges". ]],
-
-               
               ["Autumn Chest Mimic"] = {Class = "Pet", Price = 500000},
-              ["Autumn Teddy Bear"] = {Class = "Pet", Price = 50000},
-              ["Huge Red Wolf"] = {Class = "Pet", Price = 5000000},
-            },
-
-           
-             ["Autumn Chest Mimic"] = {Class = "Pet", Price = 500000},
               ["Autumn Teddy Bear"] = {Class = "Pet", Price = 50000},
               ["Huge Red Wolf"] = {Class = "Pet", Price = 5000000},
         },
