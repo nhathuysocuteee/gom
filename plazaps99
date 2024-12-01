@@ -3,7 +3,13 @@ getgenv().Settings = {
       Seller = {
         Active = true,
         Items = {
-            ["All Huges"] = {Class = "Pet", Price = "-5%", AllTypes = true},
+            ["Huge Scarecrow Dog"] = {Class = "Pet", Price = "-5%", AllTypes = true},
+            ["Rainbow All Huges"] = {Class = "Pet", Price = "-5%"},    
+            ["Golden All Huges"] = {Class = "Pet", Price = "-5%"},    
+            ["Shiny All Huges"] = {Class = "Pet", Price = "-5%"},     
+            ["Shiny Rainbow All Huges"] = {Class = "Pet", Price = "-5%"},     
+            ["Shiny Golden All Huges"] = {Class = "Pet", Price = "-5%"},     
+            ["All Titanics"] = {Class = "Pet", Price = "30000000000"},
         },
         Serverhop = {
             ["Switch Servers"] = true,
