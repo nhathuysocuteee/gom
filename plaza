@@ -1,4 +1,4 @@
-script_key="CjhWeBMOJbODWKXGLaxlkmFVCodDSbDc";
+script_key="rVWsbnsxmtbrpRIVisObebhuGubJNaDd";
 
 getgenv().petsGoConfig = {
     DISCORD_ID = "1276614706144215132",
@@ -11,19 +11,19 @@ getgenv().petsGoConfig = {
     SELL_PERCENTAGE_10M = 0.8,  
 
     SELL_50M_PET = false, 
-    SELL_PERCENTAGE_50M = 0.8,  
+    SELL_PERCENTAGE_50M = 0.85,  
 
     SELL_100M_PET = true, 
-    SELL_PERCENTAGE_100M = 0.7, 
+    SELL_PERCENTAGE_100M = 0.8, 
 
     SELL_HUGE_SECRET = true,  
-    SELL_PERCENTAGE_HUGE_SECRET = 0.8, 
+    SELL_PERCENTAGE_HUGE_SECRET = 0.9, 
 
     SELL_POTION = true,  
-    SELL_POTION_PERCENTAGE = 0.8,
+    SELL_POTION_PERCENTAGE = 0.9,
 
     SELL_KEY = true,  
-    SELL_KEY_PERCENTAGE = 0.8, 
+    SELL_KEY_PERCENTAGE = 0.9, 
 
     SELL_BAIT = true, 
     SELL_BAIT_PERCENTAGE = 1, 
@@ -34,5 +34,4 @@ getgenv().petsGoConfig = {
     MAIL_GEMS_USERNAME = "QHqjdUlpXNN", 
     MAIL_GEMS_MIN = 10000000,  
 }
-
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/edafbc84006c0897b76b0d07cef3fe41.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/074ae419ea26f2a773d8e592958ec2e8.lua"))() 
