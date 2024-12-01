@@ -6,6 +6,7 @@ getgenv().Settings = {
               ["Autumn Chest Mimic"] = {Class = "Pet", Price = 500000},
               ["Autumn Teddy Bear"] = {Class = "Pet", Price = 50000},
               ["Huge Red Wolf"] = {Class = "Pet", Price = 5000000},
+              ["All Titanics"] = {Class = "Pet", Price = 1000000000, AllTypes = true},
         },
         Serverhop = {
             ["Switch Servers"] = true,
