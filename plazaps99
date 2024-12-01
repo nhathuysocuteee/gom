@@ -5,15 +5,7 @@ getgenv().Settings = {
         Items = {
             ["Autumn Teddy Bear"] = {Class = "Pet", Price = "700000"},
             ["Autumn Chest Mimic"] = {Class = "Pet", Price = "6500000"},
-            ["Huge Scarecrow Dog"] = {Class = "Pet", Price = "-5%", AllTypes = true},
-            ["Rainbow All Huges"] = {Class = "Pet", Price = "-5%"},    
-            ["Golden All Huges"] = {Class = "Pet", Price = "-5%"},    
-            ["Shiny All Huges"] = {Class = "Pet", Price = "-5%"},     
-            ["Shiny Rainbow All Huges"] = {Class = "Pet", Price = "-5%"},     
-            ["Shiny Golden All Huges"] = {Class = "Pet", Price = "-5%"},     
-            ["All Titanics"] = {Class = "Pet", Price = "17000000000"},
-         
-
+            
 
         },
         Serverhop = {
