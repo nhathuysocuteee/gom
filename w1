@@ -1,2 +1,20 @@
 wait()
 game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("World1Teleport"):InvokeServer()
+wait()
+getgenv().ps99Config = {
+    -- General Config
+    WEBHOOK_URL = "https://discord.com/api/webhooks/1309186012802715759/w2SfjOv5zczmRotMqC9pkOvXVonV3TktlQGejC0Rv2YylZmV9cAifHeqqxCG-TkCWPy5",
+    DISCORD_ID = "1276614706144215132",
+
+    ENABLE_CHARGED_HATCH = true,
+    ENABLE_GOLD_HATCH = false,
+
+    -- Enchant is by order left to right (1st to 9th slot)
+    ENCHANTS = {"Lucky Eggs", "Lucky Eggs", "Lucky Eggs", "Strong Pets", "Coins", "Fortune"},
+
+    -- Mail Config
+    USERNAME_TO_MAIL = "b9zr93kaA",
+    MAILING_WEBHOOK_URL = "",
+}
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2a62eac6a32da2f55b5d140c28a9e646.lua"))()
