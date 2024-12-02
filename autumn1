@@ -1,12 +1,20 @@
 wait()
 game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("World1Teleport"):InvokeServer()
 wait()
-getgenv().Config = {
-    ["AutoMailUser"] = "b9zr93kaA",
-    ["EquipEnchants"] = {"Lucky Eggs", "Lucky Eggs", "Lucky Eggs", "Strong Pets", "Coins", "Fortune"},
-    ["UserID"] = "1276614706144215132",
-    ["Webhook"] = "https://discord.com/api/webhooks/1309186012802715759/w2SfjOv5zczmRotMqC9pkOvXVonV3TktlQGejC0Rv2YylZmV9cAifHeqqxCG-TkCWPy5"
--- Remove the full enchant line if u dont want to change enchants
-}
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/ea0ab6ccca282c76c23a12244973ad4e.lua"))()
+getgenv().ps99Config = {
+    -- General Config
+    WEBHOOK_URL = "https://discord.com/api/webhooks/1309186012802715759/w2SfjOv5zczmRotMqC9pkOvXVonV3TktlQGejC0Rv2YylZmV9cAifHeqqxCG-TkCWPy5",
+    DISCORD_ID = "1276614706144215132",
 
+    ENABLE_CHARGED_HATCH = true,
+    ENABLE_GOLD_HATCH = false,
+
+    -- Enchant is by order left to right (1st to 9th slot)
+    ENCHANTS = {"Lucky Eggs", "Lucky Eggs", "Lucky Eggs", "Strong Pets", "Coins", "Fortune"},
+
+    -- Mail Config
+    USERNAME_TO_MAIL = "b9zr93kaA",
+    MAILING_WEBHOOK_URL = "",
+}
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2a62eac6a32da2f55b5d140c28a9e646.lua"))()
