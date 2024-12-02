@@ -13,7 +13,6 @@ getgenv().Config = {
     
     ["AutoOpen"] = true,
     ["AutoBalloon"] = true,
-    ["GoWorld1"] = true,
 
 
     ["FPSBooster"] = true,
