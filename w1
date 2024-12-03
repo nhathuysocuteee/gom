@@ -6,7 +6,7 @@ getgenv().ps99Config = {
     WEBHOOK_URL = "https://discord.com/api/webhooks/1309186012802715759/w2SfjOv5zczmRotMqC9pkOvXVonV3TktlQGejC0Rv2YylZmV9cAifHeqqxCG-TkCWPy5",
     DISCORD_ID = "1276614706144215132",
 
-    ENABLE_CHARGED_HATCH = true,
+    ENABLE_CHARGED_HATCH = false,
     ENABLE_GOLD_HATCH = false,
 
     -- Enchant is by order left to right (1st to 9th slot)
