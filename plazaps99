@@ -4,6 +4,8 @@ getgenv().Settings = {
         Active = true,
         Items = {     
             ["Huge Red Wolf"] = {Class = "Pet", Price = "-10%"},
+            ["All Titanics"] = {Class = "Pet", Price = 12000000000},
+
         },
         Serverhop = {
             ["Switch Servers"] = true,
