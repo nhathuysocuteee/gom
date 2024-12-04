@@ -3,7 +3,7 @@ getgenv().Settings = {
       Seller = {
         Active = true,
         Items = {     
-            ["All Huges"] = {Class = "Pet", Price = "-5%", AllTypes = true},
+            ["All Huges"] = {Class = "Pet", Price = "-15%", AllTypes = true},
             ["All Titanics"] = {Class = "Pet", Price = 11000000000, AllTypes = true},
         },
         Serverhop = {
