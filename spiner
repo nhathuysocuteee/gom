@@ -3,7 +3,7 @@ getgenv().Settings = {
     Sniper = {
         Active = true,
         Items = {
-            ["Huge Red Wolf"] = {Class = "Pet", Price = "80%", DetectManipulation = true},
+            ["Huge Red Wolf"] = {Class = "Pet", Price = "70%", DetectManipulation = true},
             ["All Titanics"] = {Class = "Pet", Price = "30%", UseCosmicValues = true, AllTypes = true},
         },
         Serverhop = {
