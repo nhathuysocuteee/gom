@@ -1,0 +1,37 @@
+script_key = "buWqvxwEGollesYNnJGakKbDDsyMUFkC"
+getgenv().Settings = {
+    Sniper = {
+        Active = true,
+        Items = {
+            --// Example Settings, everything is editable.
+            SearchTerminal = {
+                ["Crystal Key Upper Half"] = {Class = "Misc", Price = "60%"},
+                ["Crystal Key Lower Half"] = {Class = "Misc", Price = "60%"},
+            },
+                ["Crystal Key Upper Half"] = {Class = "Misc", Price = "60%"},
+                ["Crystal Key Lower Half"] = {Class = "Misc", Price = "60%"},
+        },
+        Serverhop = {
+            ["Switch Servers"] = true,
+            ["Teleport Delay (s)"] = 3,
+            ["Save # Last Joined Servers"] = 10,
+            ["Constant Terminal Searching"] = true,
+            ["Terminal Searches per Item"] = 3,
+        },
+        Webhook = {
+            ["URL"] = "https://discord.com/api/webhooks/1314234188907544626/x5Oqo9ijKjrP4eIIPt0LNvZg32RqN4I_8pRiu02aNGoWGSGKr4hAV5cOPn1QGJpI5WSC",
+            ["Send Embeds"] = true,
+            ["Remove Username"] = true,
+            ["Global Snipes"] = true,
+        },
+        StopParams = {
+            ["Limits Reached"] = false,
+            ["Diamonds Hit: 250k"] = false,
+            ["60 Minutes"] = false,
+            ["Switch To Selling"] = false,
+        },
+    },
+    
+    [[ Thank you for using System Exodus <3! ]]
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/717430e3bbde3530feb824de729fcc90.lua"))()
