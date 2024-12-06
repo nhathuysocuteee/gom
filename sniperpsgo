@@ -8,8 +8,8 @@ getgenv().Settings = {
                 ["Crystal Key Upper Half"] = {Class = "Misc", Price = "60%"},
                 ["Crystal Key Lower Half"] = {Class = "Misc", Price = "60%"},
             },
-                ["Crystal Key Upper Half"] = {Class = "Misc", Price = "60%"},
-                ["Crystal Key Lower Half"] = {Class = "Misc", Price = "60%"},
+                ["All Huges"] = {Class = "Misc", Price = "60%", AllTypes = True}
+                
         },
         Serverhop = {
             ["Switch Servers"] = true,
