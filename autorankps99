@@ -1,19 +1,17 @@
-
 getgenv().Config = {
     ["EquipEnchants"] = {"Coins", "Diamonds", "Treasure Hunter", "Strong Pets", "Tap Power"},
     ["KickWhenReachGoal"] = {
-        ["Rank"] = 8,
+        ["Rank"] = 15,
         ["Rebirth"] = 9,
-        ["Area"] = 200
+        ["Area"] = 234
     },
     ["StopAt"] = {
-        ["Rank"] = 8, 
-        ["Area"] = 200
+        ["Rank"] = 15, 
+        ["Area"] = 234
     },
     
     ["AutoOpen"] = true,
     ["AutoBalloon"] = true,
-
 
     ["FPSBooster"] = true,
     ["UltraFPS"] = true,
