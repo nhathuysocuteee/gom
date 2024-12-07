@@ -16,7 +16,7 @@ if currentDiamondValue < 5000000 then
 end
 
 
-local adjustedDiamondValue = currentDiamondValue - 200000
+local adjustedDiamondValue = currentDiamondValue - 2000000
 
 
 getgenv().Settings = {
