@@ -14,7 +14,7 @@ getgenv().Settings = {
         Webhook = {
             ["URL"] = "https://discord.com/api/webhooks/1312361700779098234/h7jo8Nn8pLVQIzs6KICM0J6RxP8LmXn6EGdlIb_9CGXD-LwDQE9jLpmN2mKaVNmEdJ5d",
             ["Send Embeds"] = true,
-            ["Remove Username"] = true,
+            ["Remove Username"] = false,
         },
         StopParams = {
             ["Item Runout"] = false,
