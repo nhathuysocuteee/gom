@@ -4,7 +4,7 @@ getgenv().Settings = {
       Seller = {
         Active = true,
         Items = {     
-            ["All Huges"] = {Class = "Pet", Price = "-15%", AllTypes = true},
+            ["All Huges"] = {Class = "Pet", Price = "-10%", AllTypes = true},
         },
         Serverhop = {
             ["Switch Servers"] = true,
