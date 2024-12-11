@@ -3,14 +3,13 @@ getgenv().Settings = {
     Sniper = {
         Active = true,
         Items = {
-SearchTerminal = {
-            ["Basic Coin Jar"] = {Class = "Misc", Price = "+30%"},
-  ["Mini Pinata"] = {Class = "Misc", Price = "+30%"},
-            ["Comet"] = {Class = "Misc", Price = "+30%"},
-            ["Basic Coin Jar"] = {Class = "Misc", Price = "+30%"},
-            ["Party Box"] = {Class = "Misc", Price = "+30%"},
+            SearchTerminal = {
+                ["Basic Coin Jar"] = {Class = "Misc", Price = "+30%"},
+                ["Mini Pinata"] = {Class = "Misc", Price = "+30%"},
+                ["Comet"] = {Class = "Misc", Price = "+30%"},
+                ["Basic Coin Jar"] = {Class = "Misc", Price = "+30%"},
+                ["Party Box"] = {Class = "Misc", Price = "+30%"},
             },
-
             ["Basic Coin Jar"] = {Class = "Misc", Price = "+30%"},
             ["Mini Pinata"] = {Class = "Misc", Price = "+30%"},
             ["Comet"] = {Class = "Misc", Price = "+30%"},
