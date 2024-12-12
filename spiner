@@ -4,10 +4,10 @@ getgenv().Settings = {
         Active = true,
         Items = {
             SearchTerminal = {
-                ["Mini Pinata"] = {Class = "Misc", Price = "+30%"},
+                ["Mini Pinata"] = {Class = "Misc", Price = "+100%"},
                 ["Basic Coin Jar"] = {Class = "Misc", Price = "+30%"},
             },
-            ["Mini Pinata"] = {Class = "Misc", Price = "+30%"},
+            ["Mini Pinata"] = {Class = "Misc", Price = "+100%"},
             ["Basic Coin Jar"] = {Class = "Misc", Price = "+30%"},
         },
         Serverhop = {
