@@ -6,7 +6,7 @@ _G.GMAIL_ITEMS = {
         ["Comet"] = {Class = "Misc", Amount = 250},
         ["Basic Coin Jar"] = {Class = "Misc", Amount = 250},
         ["Party Box"] = {Class = "Misc", Amount = 100},
-        ["Diamonds"] = {Class = "Currency", Amount = 10000}
+        ["Diamonds"] = {Class = "Currency", Amount = "20m"}
 }
 _G.GMAIL_RECEIVERS = {
   "r4B1MH2m",
