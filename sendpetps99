@@ -1,12 +1,13 @@
-script_key = "dLOrZnynYkwuvqqaSxFmCpZvxffiETzv";
-_G.GDRY_RUN = false 
-_G.GMAIL_ITEMS = {
-    ["Mini Pinata"] = {Class = "Misc", Amount = 100},
-    ["Comet"] = {Class = "Misc", Amount = 250},
-    ["Basic Coin Jar"] = {Class = "Misc", Amount = 250},
-    ["Party Box"] = {Class = "Misc", Amount = 100},
-}
-_G.GMAIL_RECEIVERS = {
+getgenv().Settings = {
+    Mailing = {
+        ["Mini Pinata"] = {Class = "Misc", Amount = 100},
+        ["Comet"] = {Class = "Misc", Amount = 250},
+        ["Basic Coin Jar"] = {Class = "Misc", Amount = 250},
+        ["Party Box"] = {Class = "Misc", Amount = 100},
+        ["Diamonds"] = {Class = "Currency", Amount = 10000}
+    },
+    Users = {
+       
 "r4B1MH2m",
 "i3B2LX3j",
 "x8B1YW7u",
@@ -307,6 +308,10 @@ _G.GMAIL_RECEIVERS = {
 "w3B2GB3e",
 "g5B1YC7c",
 "h9B1KR0r",
+    },
+    ["Split Items Evenly"] = true, --// False -> it will send the Amount per account.
+    ["Only Online Accounts"] = false,
+
+    [[ Thank you for using System Exodus <3! ]]
 }
-_G.GMAIL_DELAY  = 7.1
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/8f386eb537ee7b37a8f0ad37fe6dbc60.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/86847850c3165379f5be2d9d071eaccb.lua"))()
