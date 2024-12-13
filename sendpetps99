@@ -7,7 +7,6 @@ getgenv().Settings = {
         ["Diamonds"] = {Class = "Currency", Amount = 10000}
     },
     Users = {
-       
 "r4B1MH2m",
 "i3B2LX3j",
 "x8B1YW7u",
