@@ -4,7 +4,7 @@ getgenv().Settings = {
         Active = true,
         Items = {
             SearchTerminal = {
-                ["Basic Coin Jar"] = {Class = "Misc", Price = "+30%"},
+                ["Basic Coin Jar"] = {Class = "Misc", Price = "+100%"},
             },
             ["Basic Coin Jar"] = {Class = "Misc", Price = "+30%"},
         },
