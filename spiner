@@ -16,7 +16,6 @@ getgenv().Settings = {
                  -- ["Comet"] = {Class = "Misc", Price = "+50%"},
                  -- ["Party Box"] = {Class = "Misc", Price = "+50%"},
                 ["Damage 2"] = {Class = "Potion", Price = "+50%"},
-                ["Damage 2"] = {Class = "Potion", Price = "+50%"},
                 ["Tap Power 2"] = {Class = "Enchant", Price = "+50%"},
         },
         Serverhop = {
