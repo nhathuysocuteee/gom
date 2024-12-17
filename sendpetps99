@@ -1,7 +1,7 @@
 wait()
 game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("World1Teleport"):InvokeServer()
 wait()
-script_key = "LCzvQEVXKsBUaxmNCxIlYkcMDGqWjqfD";
+script_key = "QegDuHRjcbjWHZzoZIiaEWcjIaXowgVs";
 _G.DISABLE_OVERLAY = false -- when true it does not make screen green/red when ready.
 _G.GDRY_RUN = false  -- true means just log as test, false means actually send the mails.
 _G.GMAIL_ITEMS = {
