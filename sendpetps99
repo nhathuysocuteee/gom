@@ -7,11 +7,11 @@ _G.GDRY_RUN = false  -- true means just log as test, false means actually send t
 _G.GMAIL_ITEMS = {
          -- ["Damage"] = {Class = "Potion",Tier = 2, Amount = 1},
          -- ["Tap Power"] = {Class = "Enchant",Tier = 2, Amount = 1},
-        ["Comet"] = {Class = "Misc", Amount = 250},
-         ["Basic Coin Jar"] = {Class = "Misc", Amount = 250},
+      --done  ["Comet"] = {Class = "Misc", Amount = 250}, 
+       --done  ["Basic Coin Jar"] = {Class = "Misc", Amount = 250}, 
         -- ["Mini Pinata"] = {Class = "Misc", Amount = 100},
-        -- ["Party Box"] = {Class = "Misc", Amount = 100},
-          ----["Scarecrow Dog"] = {Class = "Pet", Amount = 50, IsGold = false, IsRainbow = true, IsShiny = false},
+         ["Party Box"] = {Class = "Misc", Amount = 100},
+          --done ["Scarecrow Dog"] = {Class = "Pet", Amount = 50, IsGold = false, IsRainbow = true, IsShiny = false},
           -- ["Diamonds"] = {Class = "Currency", Amount = "10m"}
 }
 _G.GMAIL_RECEIVERS = {
