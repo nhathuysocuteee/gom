@@ -5,14 +5,12 @@ script_key = "utANcwaBUWrzZPhaySkDzSGNZVmdYZQM";
 _G.DISABLE_OVERLAY = false -- when true it does not make screen green/red when ready.
 _G.GDRY_RUN = false  -- true means just log as test, false means actually send the mails.
 _G.GMAIL_ITEMS = {
-         -- ["Damage"] = {Class = "Potion",Tier = 2, Amount = 1},
-         -- ["Tap Power"] = {Class = "Enchant",Tier = 2, Amount = 1},
-      --done  ["Comet"] = {Class = "Misc", Amount = 250}, 
-       --done  ["Basic Coin Jar"] = {Class = "Misc", Amount = 250}, 
-        -- ["Mini Pinata"] = {Class = "Misc", Amount = 100},
-         --  ["Party Box"] = {Class = "Misc", Amount = 100},
-           ["Scarecrow Dog"] = {Class = "Pet", Amount = 50, IsGold = false, IsRainbow = true, IsShiny = false},
-        -- ["Diamonds"] = {Class = "Currency", Amount = "15m"}
+        ["Comet"] = {Class = "Misc", Amount = 250}, 
+         ["Basic Coin Jar"] = {Class = "Misc", Amount = 250}, 
+        ["Mini Pinata"] = {Class = "Misc", Amount = 100},
+           ["Party Box"] = {Class = "Misc", Amount = 100},
+           --["Scarecrow Dog"] = {Class = "Pet", Amount = 50, IsGold = false, IsRainbow = true, IsShiny = false},
+         ["Diamonds"] = {Class = "Currency", Amount = "15m"}
 }
 _G.GMAIL_RECEIVERS = {
 "Vfm9tl8go",
