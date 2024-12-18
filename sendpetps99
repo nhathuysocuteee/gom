@@ -12,7 +12,7 @@ _G.GMAIL_ITEMS = {
         -- ["Mini Pinata"] = {Class = "Misc", Amount = 100},
          --  ["Party Box"] = {Class = "Misc", Amount = 100},
           --done ["Scarecrow Dog"] = {Class = "Pet", Amount = 50, IsGold = false, IsRainbow = true, IsShiny = false},
-         ["Diamonds"] = {Class = "Currency", Amount = "10m"}
+         ["Diamonds"] = {Class = "Currency", Amount = "15m"}
 }
 _G.GMAIL_RECEIVERS = {"Px0yttne36",
 "Ri1O4W2I36",
