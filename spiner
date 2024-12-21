@@ -8,14 +8,14 @@ getgenv().Settings = {
               --   ["Mini Pinata"] = {Class = "Misc", Price = "+50%"},
            --       ["Comet"] = {Class = "Misc", Price = "+50%"},
              --    ["Party Box"] = {Class = "Misc", Price = "+50%"},
-["Rainbow Scarecrow Dog"] = {Class = "Misc", Price = "+50%"},
+["Rainbow Scarecrow Dog"] = {Class = "Pet", Price = "+50%"},
               
             },
              --   ["Basic Coin Jar"] = {Class = "Misc", Price = "+50%"},
                 -- ["Mini Pinata"] = {Class = "Misc", Price = "+50%"},
                --   ["Comet"] = {Class = "Misc", Price = "+50%"},
               --   ["Party Box"] = {Class = "Misc", Price = "+50%"},
-["Rainbow Scarecrow Dog"] = {Class = "Misc", Price = "+50%"},
+["Rainbow Scarecrow Dog"] = {Class = "Pet", Price = "+50%"},
         },
         Serverhop = {
             ["Switch Servers"] = true,
