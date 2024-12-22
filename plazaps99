@@ -5,7 +5,7 @@ getgenv().Settings = {
         Active = true,
         Items = {     
             ["All Huges"] = {Class = "Pet", Price = "-10%", AllTypes = true},
-            ["Titanic Party Cat"] = {Class = "Pet", Price = "45b", AllTypes = true},
+            ["Titanic Party Cat"] = {Class = "Pet", Price = 45000000000, AllTypes = true},
             ["Snowflake Gift"] = {Class = "Lootbox", Price = "-10%"},
         },
         Serverhop = {
