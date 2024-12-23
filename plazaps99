@@ -7,6 +7,11 @@ getgenv().Settings = {
             ["All Huges"] = {Class = "Pet", Price = "-10%", AllTypes = true},
             ["Titanic Party Cat"] = {Class = "Pet", Price = 45000000000, AllTypes = true},
             ["Snowflake Gift"] = {Class = "Lootbox", Price = "-10%"},
+            ["2024 Gargantuan Christmas Present"] = {Class = "Lootbox", Price = "-10%"},
+            ["2024 X-Large Christmas Presente Gift"] = {Class = "Lootbox", Price = "-5%"},
+            ["2024 Large Christmas Present"] = {Class = "Lootbox", Price = "-5%"},
+            ["2024 Medium Christmas Present"] = {Class = "Lootbox", Price = "-5%"},
+            ["2024 Small Christmas Present"] = {Class = "Lootbox", Price = "-5%"},
         },
         Serverhop = {
             ["Switch Servers"] = true,
